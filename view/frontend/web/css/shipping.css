@@ -1,0 +1,35 @@
+#shipping-zip-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#shipping-zip-form .field {
+    margin: 0 15px 0 0;
+}
+
+#shipping-zip-form .actions-toolbar {
+    margin: 0;
+}
+
+#shipping-zip-form .actions-toolbar .primary {
+    padding-bottom: 0 !important;
+}
+
+#shipping-zip-form .actions-toolbar button {
+    padding-bottom: 0px !important;
+    background-color: #8AC258;
+    margin: 0 10px;
+    padding: 0 5px !important;
+    border: none !important;
+    min-width: 120px;
+}
+
+#shipping-zip-form .actions-toolbar button:hover {
+    background-color: #272727;
+    transition: ease-in-out 0.25s;
+}
+
+#shipping-zip-form .actions-toolbar button span {
+    color: #fff;
+}
